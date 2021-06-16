@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31205.134
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultipleGameTrainerSource", "MultipleGameTrainerSource.csproj", "{6F12F5E9-CFE7-4DCB-B9F1-344B97BF1433}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6F12F5E9-CFE7-4DCB-B9F1-344B97BF1433}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F12F5E9-CFE7-4DCB-B9F1-344B97BF1433}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F12F5E9-CFE7-4DCB-B9F1-344B97BF1433}.Debug|x64.ActiveCfg = Debug|x64
+		{6F12F5E9-CFE7-4DCB-B9F1-344B97BF1433}.Debug|x64.Build.0 = Debug|x64
+		{6F12F5E9-CFE7-4DCB-B9F1-344B97BF1433}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F12F5E9-CFE7-4DCB-B9F1-344B97BF1433}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F12F5E9-CFE7-4DCB-B9F1-344B97BF1433}.Release|x64.ActiveCfg = Release|x64
+		{6F12F5E9-CFE7-4DCB-B9F1-344B97BF1433}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C711FA9A-78DA-4B90-9ABC-847E40C19B67}
+	EndGlobalSection
+EndGlobal
