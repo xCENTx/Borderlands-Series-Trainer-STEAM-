@@ -129,7 +129,7 @@ namespace MultipleGameTrainerSource
         private void Borderlands2_Button_Click(object sender, EventArgs e)
         {
             ActivateButton(sender, RGBColors.color1);
-            OpenChildForm(new Borderlands2());
+            //OpenChildForm(new Borderlands2());
         }
 
         private void BorderlandsPreSequel_Button_Click(object sender, EventArgs e)
@@ -206,6 +206,34 @@ namespace MultipleGameTrainerSource
         {
             currentChildForm.Close();
             Reset();
+        }
+
+        #endregion
+
+        #region //Links
+
+        //UPDATE LINK
+        private void UpdateCheck_Link_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            System.Diagnostics.Process.Start("https://github.com/xCENTx/Borderlands-Series-Trainer-STEAM-");
+        }
+
+        //Github Icon Click
+        private void iconPictureBox5_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("https://github.com/xCENTx");
+        }
+
+        //Dicord Server Icon Click
+        private void iconPictureBox3_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("https://discord.gg/XzAF9JMPkh");
+        }
+
+        //Youtube Icon Click
+        private void iconPictureBox4_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("https://www.youtube.com/channel/UCi1ukdgWPkoM4MbKCg7mowg");
         }
 
         #endregion

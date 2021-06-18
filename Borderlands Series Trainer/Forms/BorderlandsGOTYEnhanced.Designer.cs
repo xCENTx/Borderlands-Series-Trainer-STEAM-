@@ -66,13 +66,14 @@ namespace MultipleGameTrainerSource.Forms
             this.ProcessTimer = new System.Windows.Forms.Timer(this.components);
             this.NoClipTimer = new System.Windows.Forms.Timer(this.components);
             this.HotKeyTimer = new System.Windows.Forms.Timer(this.components);
+            this.label4 = new System.Windows.Forms.Label();
             this.panel4.SuspendLayout();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // pnl_NoRecoil
             // 
-            this.pnl_NoRecoil.Location = new System.Drawing.Point(3, 3);
+            this.pnl_NoRecoil.Location = new System.Drawing.Point(8, 3);
             this.pnl_NoRecoil.Name = "pnl_NoRecoil";
             this.pnl_NoRecoil.Size = new System.Drawing.Size(20, 20);
             this.pnl_NoRecoil.TabIndex = 59;
@@ -83,7 +84,7 @@ namespace MultipleGameTrainerSource.Forms
             this.label11.BackColor = System.Drawing.Color.Transparent;
             this.label11.Font = new System.Drawing.Font("Compacta Blk BT", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label11.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(219)))), ((int)(((byte)(219)))), ((int)(((byte)(219)))));
-            this.label11.Location = new System.Drawing.Point(23, 3);
+            this.label11.Location = new System.Drawing.Point(28, 3);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(104, 20);
             this.label11.TabIndex = 58;
@@ -92,7 +93,7 @@ namespace MultipleGameTrainerSource.Forms
             // XPMultiplyComboBox
             // 
             this.XPMultiplyComboBox.FormattingEnabled = true;
-            this.XPMultiplyComboBox.Location = new System.Drawing.Point(137, 136);
+            this.XPMultiplyComboBox.Location = new System.Drawing.Point(137, 108);
             this.XPMultiplyComboBox.Name = "XPMultiplyComboBox";
             this.XPMultiplyComboBox.Size = new System.Drawing.Size(54, 21);
             this.XPMultiplyComboBox.TabIndex = 53;
@@ -104,7 +105,7 @@ namespace MultipleGameTrainerSource.Forms
             this.label9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(57)))), ((int)(((byte)(74)))));
             this.label9.Font = new System.Drawing.Font("Compacta Blk BT", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(219)))), ((int)(((byte)(219)))), ((int)(((byte)(219)))));
-            this.label9.Location = new System.Drawing.Point(8, 137);
+            this.label9.Location = new System.Drawing.Point(8, 109);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(128, 20);
             this.label9.TabIndex = 54;
@@ -252,14 +253,14 @@ namespace MultipleGameTrainerSource.Forms
             this.panel4.Controls.Add(this.KeysTextBox);
             this.panel4.Controls.Add(this.KeysButton);
             this.panel4.Controls.Add(this.label3);
-            this.panel4.Location = new System.Drawing.Point(251, 3);
+            this.panel4.Location = new System.Drawing.Point(264, 56);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(225, 231);
+            this.panel4.Size = new System.Drawing.Size(225, 135);
             this.panel4.TabIndex = 57;
             // 
             // pnl_XPstatus
             // 
-            this.pnl_XPstatus.Location = new System.Drawing.Point(196, 137);
+            this.pnl_XPstatus.Location = new System.Drawing.Point(196, 109);
             this.pnl_XPstatus.Name = "pnl_XPstatus";
             this.pnl_XPstatus.Size = new System.Drawing.Size(20, 20);
             this.pnl_XPstatus.TabIndex = 16;
@@ -282,9 +283,9 @@ namespace MultipleGameTrainerSource.Forms
             this.panel1.Controls.Add(this.label6);
             this.panel1.Controls.Add(this.label11);
             this.panel1.Controls.Add(this.pnl_NoRecoil);
-            this.panel1.Location = new System.Drawing.Point(5, 37);
+            this.panel1.Location = new System.Drawing.Point(13, 56);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(240, 197);
+            this.panel1.Size = new System.Drawing.Size(240, 135);
             this.panel1.TabIndex = 60;
             // 
             // label19
@@ -293,11 +294,11 @@ namespace MultipleGameTrainerSource.Forms
             this.label19.BackColor = System.Drawing.Color.Transparent;
             this.label19.Font = new System.Drawing.Font("Compacta Blk BT", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label19.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(219)))), ((int)(((byte)(219)))), ((int)(((byte)(219)))));
-            this.label19.Location = new System.Drawing.Point(147, 135);
+            this.label19.Location = new System.Drawing.Point(152, 107);
             this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(82, 20);
+            this.label19.Size = new System.Drawing.Size(87, 20);
             this.label19.TabIndex = 70;
-            this.label19.Text = "(NUM 1)";
+            this.label19.Text = "(NUM 5)";
             // 
             // label18
             // 
@@ -305,7 +306,7 @@ namespace MultipleGameTrainerSource.Forms
             this.label18.BackColor = System.Drawing.Color.Transparent;
             this.label18.Font = new System.Drawing.Font("Compacta Blk BT", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label18.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(219)))), ((int)(((byte)(219)))), ((int)(((byte)(219)))));
-            this.label18.Location = new System.Drawing.Point(147, 81);
+            this.label18.Location = new System.Drawing.Point(152, 81);
             this.label18.Name = "label18";
             this.label18.Size = new System.Drawing.Size(87, 20);
             this.label18.TabIndex = 69;
@@ -317,7 +318,7 @@ namespace MultipleGameTrainerSource.Forms
             this.label17.BackColor = System.Drawing.Color.Transparent;
             this.label17.Font = new System.Drawing.Font("Compacta Blk BT", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label17.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(219)))), ((int)(((byte)(219)))), ((int)(((byte)(219)))));
-            this.label17.Location = new System.Drawing.Point(147, 55);
+            this.label17.Location = new System.Drawing.Point(152, 55);
             this.label17.Name = "label17";
             this.label17.Size = new System.Drawing.Size(87, 20);
             this.label17.TabIndex = 68;
@@ -329,7 +330,7 @@ namespace MultipleGameTrainerSource.Forms
             this.label15.BackColor = System.Drawing.Color.Transparent;
             this.label15.Font = new System.Drawing.Font("Compacta Blk BT", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label15.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(219)))), ((int)(((byte)(219)))), ((int)(((byte)(219)))));
-            this.label15.Location = new System.Drawing.Point(147, 29);
+            this.label15.Location = new System.Drawing.Point(152, 29);
             this.label15.Name = "label15";
             this.label15.Size = new System.Drawing.Size(87, 20);
             this.label15.TabIndex = 66;
@@ -341,7 +342,7 @@ namespace MultipleGameTrainerSource.Forms
             this.label14.BackColor = System.Drawing.Color.Transparent;
             this.label14.Font = new System.Drawing.Font("Compacta Blk BT", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label14.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(219)))), ((int)(((byte)(219)))), ((int)(((byte)(219)))));
-            this.label14.Location = new System.Drawing.Point(147, 3);
+            this.label14.Location = new System.Drawing.Point(152, 3);
             this.label14.Name = "label14";
             this.label14.Size = new System.Drawing.Size(82, 20);
             this.label14.TabIndex = 65;
@@ -349,28 +350,28 @@ namespace MultipleGameTrainerSource.Forms
             // 
             // pnl_InfKeys
             // 
-            this.pnl_InfKeys.Location = new System.Drawing.Point(3, 135);
+            this.pnl_InfKeys.Location = new System.Drawing.Point(8, 107);
             this.pnl_InfKeys.Name = "pnl_InfKeys";
             this.pnl_InfKeys.Size = new System.Drawing.Size(20, 20);
             this.pnl_InfKeys.TabIndex = 60;
             // 
             // pnl_InfMoney
             // 
-            this.pnl_InfMoney.Location = new System.Drawing.Point(3, 81);
+            this.pnl_InfMoney.Location = new System.Drawing.Point(8, 81);
             this.pnl_InfMoney.Name = "pnl_InfMoney";
             this.pnl_InfMoney.Size = new System.Drawing.Size(20, 20);
             this.pnl_InfMoney.TabIndex = 60;
             // 
             // pnl_InfAmmo
             // 
-            this.pnl_InfAmmo.Location = new System.Drawing.Point(3, 55);
+            this.pnl_InfAmmo.Location = new System.Drawing.Point(8, 55);
             this.pnl_InfAmmo.Name = "pnl_InfAmmo";
             this.pnl_InfAmmo.Size = new System.Drawing.Size(20, 20);
             this.pnl_InfAmmo.TabIndex = 60;
             // 
             // pnl_InfHealth
             // 
-            this.pnl_InfHealth.Location = new System.Drawing.Point(3, 29);
+            this.pnl_InfHealth.Location = new System.Drawing.Point(8, 29);
             this.pnl_InfHealth.Name = "pnl_InfHealth";
             this.pnl_InfHealth.Size = new System.Drawing.Size(20, 20);
             this.pnl_InfHealth.TabIndex = 60;
@@ -381,7 +382,7 @@ namespace MultipleGameTrainerSource.Forms
             this.label13.BackColor = System.Drawing.Color.Transparent;
             this.label13.Font = new System.Drawing.Font("Compacta Blk BT", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label13.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(219)))), ((int)(((byte)(219)))), ((int)(((byte)(219)))));
-            this.label13.Location = new System.Drawing.Point(23, 135);
+            this.label13.Location = new System.Drawing.Point(28, 107);
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(107, 20);
             this.label13.TabIndex = 64;
@@ -393,7 +394,7 @@ namespace MultipleGameTrainerSource.Forms
             this.label12.BackColor = System.Drawing.Color.Transparent;
             this.label12.Font = new System.Drawing.Font("Compacta Blk BT", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label12.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(219)))), ((int)(((byte)(219)))), ((int)(((byte)(219)))));
-            this.label12.Location = new System.Drawing.Point(23, 81);
+            this.label12.Location = new System.Drawing.Point(28, 81);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(107, 20);
             this.label12.TabIndex = 63;
@@ -405,7 +406,7 @@ namespace MultipleGameTrainerSource.Forms
             this.label10.BackColor = System.Drawing.Color.Transparent;
             this.label10.Font = new System.Drawing.Font("Compacta Blk BT", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label10.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(219)))), ((int)(((byte)(219)))), ((int)(((byte)(219)))));
-            this.label10.Location = new System.Drawing.Point(23, 55);
+            this.label10.Location = new System.Drawing.Point(28, 55);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(103, 20);
             this.label10.TabIndex = 62;
@@ -417,7 +418,7 @@ namespace MultipleGameTrainerSource.Forms
             this.label6.BackColor = System.Drawing.Color.Transparent;
             this.label6.Font = new System.Drawing.Font("Compacta Blk BT", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(219)))), ((int)(((byte)(219)))), ((int)(((byte)(219)))));
-            this.label6.Location = new System.Drawing.Point(23, 29);
+            this.label6.Location = new System.Drawing.Point(28, 29);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(111, 20);
             this.label6.TabIndex = 60;
@@ -429,7 +430,7 @@ namespace MultipleGameTrainerSource.Forms
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Compacta Blk BT", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(219)))), ((int)(((byte)(219)))), ((int)(((byte)(219)))));
-            this.label1.Location = new System.Drawing.Point(44, 3);
+            this.label1.Location = new System.Drawing.Point(52, 22);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(154, 33);
             this.label1.TabIndex = 61;
@@ -449,12 +450,25 @@ namespace MultipleGameTrainerSource.Forms
             this.HotKeyTimer.Enabled = true;
             this.HotKeyTimer.Tick += new System.EventHandler(this.HotKeyTimer_Tick);
             // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.BackColor = System.Drawing.Color.Transparent;
+            this.label4.Font = new System.Drawing.Font("Compacta Blk BT", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(219)))), ((int)(((byte)(219)))), ((int)(((byte)(219)))));
+            this.label4.Location = new System.Drawing.Point(283, 22);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(189, 33);
+            this.label4.TabIndex = 62;
+            this.label4.Text = "CUSTOMIZE";
+            // 
             // BorderlandsGOTYEnhanced
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(210)))), ((int)(((byte)(103)))), ((int)(((byte)(0)))));
-            this.ClientSize = new System.Drawing.Size(477, 237);
+            this.ClientSize = new System.Drawing.Size(496, 237);
+            this.Controls.Add(this.label4);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.panel4);
@@ -507,5 +521,6 @@ namespace MultipleGameTrainerSource.Forms
         private System.Windows.Forms.Timer ProcessTimer;
         private System.Windows.Forms.Timer NoClipTimer;
         private System.Windows.Forms.Timer HotKeyTimer;
+        private System.Windows.Forms.Label label4;
     }
 }

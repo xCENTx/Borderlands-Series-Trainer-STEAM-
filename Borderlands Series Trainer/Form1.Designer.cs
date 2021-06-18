@@ -49,6 +49,15 @@ namespace MultipleGameTrainerSource
             this.panel1 = new System.Windows.Forms.Panel();
             this.panelDesktop = new System.Windows.Forms.Panel();
             this.panelShadow2 = new System.Windows.Forms.Panel();
+            this.label1 = new System.Windows.Forms.Label();
+            this.UpdateCheck_Link = new System.Windows.Forms.LinkLabel();
+            this.iconPictureBox3 = new FontAwesome.Sharp.IconPictureBox();
+            this.iconPictureBox4 = new FontAwesome.Sharp.IconPictureBox();
+            this.iconPictureBox5 = new FontAwesome.Sharp.IconPictureBox();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
             this.panelMenu.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
@@ -60,11 +69,18 @@ namespace MultipleGameTrainerSource
             ((System.ComponentModel.ISupportInitialize)(this.iconPictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnHome)).BeginInit();
             this.panelShadow.SuspendLayout();
+            this.panelDesktop.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.iconPictureBox3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.iconPictureBox4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.iconPictureBox5)).BeginInit();
             this.SuspendLayout();
             // 
             // panelMenu
             // 
             this.panelMenu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(219)))), ((int)(((byte)(219)))), ((int)(((byte)(219)))));
+            this.panelMenu.Controls.Add(this.iconPictureBox5);
+            this.panelMenu.Controls.Add(this.iconPictureBox4);
+            this.panelMenu.Controls.Add(this.iconPictureBox3);
             this.panelMenu.Controls.Add(this.pictureBox5);
             this.panelMenu.Controls.Add(this.pictureBox4);
             this.panelMenu.Controls.Add(this.pictureBox1);
@@ -83,9 +99,9 @@ namespace MultipleGameTrainerSource
             // pictureBox5
             // 
             this.pictureBox5.Image = global::MultipleGameTrainerSource.Properties.Resources.Night_Fyre_Banner;
-            this.pictureBox5.Location = new System.Drawing.Point(12, 306);
+            this.pictureBox5.Location = new System.Drawing.Point(-35, 303);
             this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(222, 25);
+            this.pictureBox5.Size = new System.Drawing.Size(222, 29);
             this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox5.TabIndex = 1;
             this.pictureBox5.TabStop = false;
@@ -271,9 +287,11 @@ namespace MultipleGameTrainerSource
             // lblTitleChildForm
             // 
             this.lblTitleChildForm.AutoSize = true;
-            this.lblTitleChildForm.Location = new System.Drawing.Point(44, 21);
+            this.lblTitleChildForm.Font = new System.Drawing.Font("Impact", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTitleChildForm.ForeColor = System.Drawing.Color.Gainsboro;
+            this.lblTitleChildForm.Location = new System.Drawing.Point(44, 12);
             this.lblTitleChildForm.Name = "lblTitleChildForm";
-            this.lblTitleChildForm.Size = new System.Drawing.Size(35, 13);
+            this.lblTitleChildForm.Size = new System.Drawing.Size(61, 26);
             this.lblTitleChildForm.TabIndex = 1;
             this.lblTitleChildForm.Text = "Home";
             // 
@@ -315,6 +333,12 @@ namespace MultipleGameTrainerSource
             // panelDesktop
             // 
             this.panelDesktop.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(210)))), ((int)(((byte)(103)))), ((int)(((byte)(0)))));
+            this.panelDesktop.Controls.Add(this.label5);
+            this.panelDesktop.Controls.Add(this.label4);
+            this.panelDesktop.Controls.Add(this.label3);
+            this.panelDesktop.Controls.Add(this.label2);
+            this.panelDesktop.Controls.Add(this.UpdateCheck_Link);
+            this.panelDesktop.Controls.Add(this.label1);
             this.panelDesktop.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panelDesktop.Location = new System.Drawing.Point(257, 59);
             this.panelDesktop.Name = "panelDesktop";
@@ -329,6 +353,122 @@ namespace MultipleGameTrainerSource
             this.panelShadow2.Name = "panelShadow2";
             this.panelShadow2.Size = new System.Drawing.Size(9, 276);
             this.panelShadow2.TabIndex = 4;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.label1.Font = new System.Drawing.Font("Impact", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.Gainsboro;
+            this.label1.Location = new System.Drawing.Point(117, 16);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(280, 39);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "WORK IN PROGRESS";
+            // 
+            // UpdateCheck_Link
+            // 
+            this.UpdateCheck_Link.AutoSize = true;
+            this.UpdateCheck_Link.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.UpdateCheck_Link.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.UpdateCheck_Link.LinkColor = System.Drawing.Color.Gainsboro;
+            this.UpdateCheck_Link.Location = new System.Drawing.Point(114, 55);
+            this.UpdateCheck_Link.Name = "UpdateCheck_Link";
+            this.UpdateCheck_Link.Size = new System.Drawing.Size(283, 20);
+            this.UpdateCheck_Link.TabIndex = 1;
+            this.UpdateCheck_Link.TabStop = true;
+            this.UpdateCheck_Link.Text = "CLICK TO CHECK FOR UPDATES";
+            this.UpdateCheck_Link.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.UpdateCheck_Link_LinkClicked);
+            // 
+            // iconPictureBox3
+            // 
+            this.iconPictureBox3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(219)))), ((int)(((byte)(219)))), ((int)(((byte)(219)))));
+            this.iconPictureBox3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(114)))), ((int)(((byte)(137)))), ((int)(((byte)(217)))));
+            this.iconPictureBox3.IconChar = FontAwesome.Sharp.IconChar.Discord;
+            this.iconPictureBox3.IconColor = System.Drawing.Color.FromArgb(((int)(((byte)(114)))), ((int)(((byte)(137)))), ((int)(((byte)(217)))));
+            this.iconPictureBox3.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.iconPictureBox3.Location = new System.Drawing.Point(187, 306);
+            this.iconPictureBox3.Name = "iconPictureBox3";
+            this.iconPictureBox3.Size = new System.Drawing.Size(32, 32);
+            this.iconPictureBox3.TabIndex = 2;
+            this.iconPictureBox3.TabStop = false;
+            this.iconPictureBox3.Click += new System.EventHandler(this.iconPictureBox3_Click);
+            // 
+            // iconPictureBox4
+            // 
+            this.iconPictureBox4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(219)))), ((int)(((byte)(219)))), ((int)(((byte)(219)))));
+            this.iconPictureBox4.ForeColor = System.Drawing.Color.Red;
+            this.iconPictureBox4.IconChar = FontAwesome.Sharp.IconChar.Youtube;
+            this.iconPictureBox4.IconColor = System.Drawing.Color.Red;
+            this.iconPictureBox4.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.iconPictureBox4.Location = new System.Drawing.Point(225, 304);
+            this.iconPictureBox4.Name = "iconPictureBox4";
+            this.iconPictureBox4.Size = new System.Drawing.Size(32, 32);
+            this.iconPictureBox4.TabIndex = 2;
+            this.iconPictureBox4.TabStop = false;
+            this.iconPictureBox4.Click += new System.EventHandler(this.iconPictureBox4_Click);
+            // 
+            // iconPictureBox5
+            // 
+            this.iconPictureBox5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(219)))), ((int)(((byte)(219)))), ((int)(((byte)(219)))));
+            this.iconPictureBox5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(31)))), ((int)(((byte)(31)))));
+            this.iconPictureBox5.IconChar = FontAwesome.Sharp.IconChar.Github;
+            this.iconPictureBox5.IconColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(31)))), ((int)(((byte)(31)))));
+            this.iconPictureBox5.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.iconPictureBox5.Location = new System.Drawing.Point(149, 306);
+            this.iconPictureBox5.Name = "iconPictureBox5";
+            this.iconPictureBox5.Size = new System.Drawing.Size(32, 32);
+            this.iconPictureBox5.TabIndex = 2;
+            this.iconPictureBox5.TabStop = false;
+            this.iconPictureBox5.Click += new System.EventHandler(this.iconPictureBox5_Click);
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.label2.Font = new System.Drawing.Font("Impact", 24F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Strikeout))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.label2.Location = new System.Drawing.Point(40, 130);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(214, 39);
+            this.label2.TabIndex = 2;
+            this.label2.Text = "Borderlands 2";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(150)))), ((int)(((byte)(0)))));
+            this.label3.Font = new System.Drawing.Font("Impact", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.Color.Gainsboro;
+            this.label3.Location = new System.Drawing.Point(40, 91);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(386, 39);
+            this.label3.TabIndex = 3;
+            this.label3.Text = "Borderlands GOTY Enhanced";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.label4.Font = new System.Drawing.Font("Impact", 24F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Strikeout))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.label4.Location = new System.Drawing.Point(40, 169);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(412, 39);
+            this.label4.TabIndex = 4;
+            this.label4.Text = "Borderlands: The Pre Sequel";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.label5.Font = new System.Drawing.Font("Impact", 24F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Strikeout))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.label5.Location = new System.Drawing.Point(40, 208);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(215, 39);
+            this.label5.TabIndex = 5;
+            this.label5.Text = "Borderlands 3";
             // 
             // Form1
             // 
@@ -357,6 +497,11 @@ namespace MultipleGameTrainerSource
             ((System.ComponentModel.ISupportInitialize)(this.iconPictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnHome)).EndInit();
             this.panelShadow.ResumeLayout(false);
+            this.panelDesktop.ResumeLayout(false);
+            this.panelDesktop.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.iconPictureBox3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.iconPictureBox4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.iconPictureBox5)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -382,6 +527,15 @@ namespace MultipleGameTrainerSource
         private System.Windows.Forms.Panel panelShadow2;
         private FontAwesome.Sharp.IconPictureBox iconPictureBox1;
         private FontAwesome.Sharp.IconPictureBox iconPictureBox2;
+        private System.Windows.Forms.LinkLabel UpdateCheck_Link;
+        private System.Windows.Forms.Label label1;
+        private FontAwesome.Sharp.IconPictureBox iconPictureBox3;
+        private FontAwesome.Sharp.IconPictureBox iconPictureBox4;
+        private FontAwesome.Sharp.IconPictureBox iconPictureBox5;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label5;
     }
 }
 
